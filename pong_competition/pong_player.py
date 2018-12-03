@@ -190,5 +190,5 @@ optimizer = optim.RMSprop(MyModelClass().to(device).parameters())
 
     
     
-p1 = PongPlayer('/Users/Joshua/Desktop/MLhackathon/pong_competition/out.txt')
+p1 = PongPlayer('/Users/Joshua/Pong-RL-Agent/pong_competition/out.txt')
 play_game(p1)
